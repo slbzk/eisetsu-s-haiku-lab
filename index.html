@@ -235,6 +235,13 @@ footer { background: var(--deeper); color: var(--ice); text-align: right; font-s
   .skier { animation: none; }
   .menu, .menu.open, .burger span, .burger::before, .burger::after { transition: none; }
 }
+
+.ku time {
+  display: inline-block;
+  min-width: 4em;
+  margin-right: 0.5em;
+}
+
 </style>
 </head>
 <body>
@@ -420,7 +427,7 @@ footer { background: var(--deeper); color: var(--ice); text-align: right; font-s
     </div>
   </section>
 
-  <section class="band light" id="information">
+<section class="band light" id="information">
   <div class="wrap">
     <p class="kicker">お知らせ</p>
     <h4 class="label">INFO.</h4>
@@ -428,14 +435,9 @@ footer { background: var(--deeper); color: var(--ice); text-align: right; font-s
       <div class="years">
         <details>
           <summary>2026</summary>
-
-          <details>
-            <summary>11</summary>
-            <ul class="ku">
-              <li style="list-style:none;">本サイト開設</li>
-            </ul>
-          </details>
-
+          <ul class="ku">
+            <li style="list-style:none;"><time datetime="2026-11-14">11/14</time>　本サイト開設</li>
+          </ul>
         </details>
       </div>
     </div>
